@@ -1,0 +1,52 @@
+Realizando um Merge
+
+Preparação para o Merge:
+
+Confirme o branch receptor:
+
+Use git branch para verificar se está no branch correto.
+Troque para o branch desejado com git checkout.
+
+Atualize os commits remotos:
+
+Execute git fetch para obter os commits remotos mais
+recentes e depois git pull para sincronizar a branch
+principal.
+
+Realizando um Merge
+
+Executando o Merge
+
+git merge <nome-do-branch>
+
+Merge de Avanço Rápido
+
+Se o histórico das branches for linear, o Git avança a ponta
+da branch atual até a branch alvo, integrando o histórico com
+eficiência sem criar novos commits de merge.
+
+Realizando um Merge
+
+Realizando um Merge
+
+Realizando um Merge
+
+Evitando Merges Desnecessários
+
+Dicas para evitar merges desnecessários:
+
+Sincronize branches antes de iniciar mudanças.
+Realize commits pequenos e frequentes.
+Revise o código antes de um merge.
+
+Benefícios:
+
+Menos conflitos e histórico mais limpo.
+
+1.Comunicação entre equipes
+
+2.Commits pequenos e frequentes
+
+3.Revisão de código colaborativa
+
+4.Uso de pull requests para organização
